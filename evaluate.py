@@ -94,7 +94,7 @@ EXPERIMENTS_DIR = "experiments"
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--with_instruction', default=False, help='Use instruction or not', type=int)
+parser.add_argument('--with_instruction', default=False, help='Use instruction or not', type=bool)
 parser.add_argument('--hdim', default=100, help='Number of units in BiRNN', type=int)
 parser.add_argument('--nlayers', default=3, help='Number of layers in BiRNN', type=int)
 parser.add_argument('--batch_size', default=128, help='Batch size', type=int)
