@@ -17,7 +17,7 @@ Keras implementation of
 
 The work is trained and tested on the behavioral navigation graph dataset from [Stanford](http://follow-nav-directions.stanford.edu/).
 
-In case natural language directions are used, [GLOVE embeddings](https://nlp.stanford.edu/projects/glove/) is also required. You can download the 100d embedding from the their website or download it [here](https://drive.google.com/file/d/1c5RptKdcUSa7oIQdMS-MTGEw2ZaK0Cy1/view?usp=sharing) and place it in the 'data' folder.
+In case natural language directions are used, [GLOVE embeddings](https://nlp.stanford.edu/projects/glove/) is also required. You can download the 100d (glove.6B.100d.txt) embedding from the their website or download it [here](https://drive.google.com/file/d/1c5RptKdcUSa7oIQdMS-MTGEw2ZaK0Cy1/view?usp=sharing) and place it in the 'data' folder.
 
 All the other necessary dataset parts are available in "data" folder. Please clone the entire project.
 ```
@@ -68,7 +68,7 @@ The following are the set of arguments that can be provided:
 
 ## Testing
 
-To do evaluation we require the trained model which can be downloaded [here](se necessary dataset and embedding) and placed in the root folder for the project. These trained models are for configurations of hdim=[50, 100], nlayers=[1, 3] and models=[model_0 (without directions), model_1 (with directions)].
+To do evaluation we require the trained model which can be downloaded [here](https://drive.google.com/file/d/1zkpysXHJrbPRNmGE8QbLinYrM-2x6PQj/view?usp=sharing) and placed in the root folder for the project. These trained models are for configurations of hdim=[50, 100], nlayers=[1, 3] and models=[model_0 (without directions), model_1 (with directions)].
 Run the following to evaluate the model with default configurations on both
 test sets:
 
