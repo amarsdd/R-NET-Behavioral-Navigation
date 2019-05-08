@@ -95,9 +95,6 @@ The following are the set of arguments that can be provided:
 ('--model_dir', default='trained_models', help='Trained Model directory', type=str)
 ```
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
